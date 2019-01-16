@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    android:background="#FFF">
+    <ImageView
+        android:id="@+id/id_iv_add"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@mipmap/ic_launcher"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="26dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="26px"
+        android:layout_toRightOf="@id/id_iv_add"
+        android:text="新增"
+        android:textSize="32px"
+        android:textColor="#1FB6C4"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="26px"
+    android:layout_width="match_parent"
+    android:layout_height="114px"
+    android:background="#FFF"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/id_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16px"
+        android:layout_marginLeft="22px"
+        android:textSize="28px"
+        android:textColor="#333333"
+        android:text="王大炮 WANG.DAPAO"
+        />
+    <TextView
+        android:id="@+id/id_tv_passportname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8px"
+        android:layout_marginLeft="22px"
+        android:text="护照:"
+        android:textSize="26px"
+        android:textColor="#999999"
+        />
+    <TextView
+        android:id="@+id/id_tv_passport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/id_tv_passportname"
+        android:layout_alignBaseline="@id/id_tv_passportname"
+        android:text="F123456"
+        android:textSize="26px"
+        android:textColor="#333333"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24px"
+        android:background="@drawable/arrow"/>
+</RelativeLayout>
